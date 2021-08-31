@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane cacheHint="SPEED" cacheShape="false" maxWidth="1600.0" prefWidth="1600.0" styleClass="Anchor-pane" stylesheets="@../../css/styling.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.notfromus.view.view1.View1Controller">
+   <children>
+      <BorderPane cacheShape="false" prefHeight="900.0" prefWidth="1600.0">
+         <left>
+            <VBox cacheShape="false" focusTraversable="true" prefHeight="853.0" prefWidth="173.0" styleClass="Anchor-pane" stylesheets="@../../css/styling.css" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="ivcon" fitHeight="132.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <VBox.margin>
+                        <Insets left="18.0" top="5.0" />
+                     </VBox.margin>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                     <image>
+                        <Image url="https://i.ibb.co/kgzYbmD/4cd974ef591d446092118356d12a110e.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="allitems_btn" alignment="BASELINE_LEFT" cacheShape="false" focusTraversable="false" mnemonicParsing="false" prefHeight="25.0" prefWidth="242.0" stylesheets="@../../css/styling.css" text="All Items" textFill="#f8f8f8">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../icons/mainlogo.png" />
+                           </image></ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="35.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="favorite_btn" alignment="BASELINE_LEFT" cacheShape="false" focusTraversable="false" mnemonicParsing="false" prefHeight="25.0" prefWidth="242.0" stylesheets="@../../css/styling.css" text="Favorites" textFill="#f8f8f8">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../icons/favorite.png" />
+                           </image></ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="trash_btn" alignment="BASELINE_LEFT" cacheShape="false" focusTraversable="false" mnemonicParsing="false" prefHeight="25.0" prefWidth="242.0" stylesheets="@../../css/styling.css" text="Trash" textFill="#f8f8f8">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../icons/trash.png" />
+                           </image></ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                  </Button>
+                  <Label alignment="BOTTOM_LEFT" prefHeight="44.0" prefWidth="215.0" text="Category" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                  </Label>
+                  <Button fx:id="covid_btn" alignment="BASELINE_LEFT" cacheShape="false" focusTraversable="false" mnemonicParsing="false" prefHeight="25.0" prefWidth="242.0" stylesheets="@../../css/styling.css" text="Covid" textFill="#f8f8f8">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://img.icons8.com/emoji/20/000000/microbe.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="politic_btn" alignment="BASELINE_LEFT" cacheShape="false" focusTraversable="false" mnemonicParsing="false" prefHeight="25.0" prefWidth="242.0" stylesheets="@../../css/styling.css" text="Politic" textFill="#f8f8f8">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://img.icons8.com/color/20/000000/diplomacy.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="business_btn" alignment="BASELINE_LEFT" cacheShape="false" focusTraversable="false" mnemonicParsing="false" prefHeight="25.0" prefWidth="242.0" stylesheets="@../../css/styling.css" text="Business" textFill="#f8f8f8">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://img.icons8.com/doodle/20/000000/analytics.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="technology_btn" alignment="BASELINE_LEFT" cacheShape="false" focusTraversable="false" mnemonicParsing="false" prefHeight="25.0" prefWidth="242.0" stylesheets="@../../css/styling.css" text="Technology" textFill="#f8f8f8">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://img.icons8.com/color/20/000000/source-code.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="sport_btn" alignment="BASELINE_LEFT" cacheShape="false" focusTraversable="false" mnemonicParsing="false" prefHeight="25.0" prefWidth="242.0" stylesheets="@../../css/styling.css" text="Sport" textFill="#f8f8f8">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://img.icons8.com/color/20/000000/olympic-rings.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="health_btn" alignment="BASELINE_LEFT" cacheShape="false" focusTraversable="false" mnemonicParsing="false" prefHeight="25.0" prefWidth="242.0" stylesheets="@../../css/styling.css" text="Health" textFill="#f8f8f8">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://img.icons8.com/doodle/20/000000/doctor-male.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+         <bottom>
+            <Pane cacheShape="false" prefHeight="20.0" prefWidth="1200.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <top>
+            <HBox alignment="CENTER_RIGHT" cacheShape="false" prefHeight="35.0" prefWidth="200.0" spacing="5.0" styleClass="Pane" stylesheets="@../../css/styling.css" BorderPane.alignment="CENTER_RIGHT">
+               <children>
+                  <Button fx:id="mainaddbtn" cancelButton="true" mnemonicParsing="false" prefHeight="18.0" prefWidth="18.0" style="-fx-background-color: #373d39;">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://img.icons8.com/color/18/000000/link--v1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="mainreloadbtn" mnemonicParsing="false" prefHeight="18.0" prefWidth="18.0" style="-fx-background-color: #373d39;">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://img.icons8.com/color/18/000000/replay--v1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </top>
+         <right>
+            <BorderPane cacheShape="false" maxWidth="350.0" prefHeight="853.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <center>
+                  <ScrollPane cacheShape="false" fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" minWidth="400.0" prefHeight="1002.0" prefWidth="700.0" style="-fx-border-insets: 1 0 0 0;" styleClass="Anchor-pane" stylesheets="@../../css/styling.css" vbarPolicy="NEVER" BorderPane.alignment="CENTER">
+                     <content>
+                        <VBox fx:id="mother" alignment="CENTER" cacheShape="false" prefHeight="817.0" prefWidth="228.0" />
+                     </content>
+                  </ScrollPane>
+               </center>
+               <top>
+                  <Pane cacheShape="false" prefHeight="31.0" prefWidth="384.0" styleClass="Anchor-pane" stylesheets="@../../css/styling.css" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label fx:id="category_lb" layoutX="63.0" layoutY="6.0" prefHeight="17.0" prefWidth="104.0" text="CATEGORY" textFill="#ebf2ed" />
+                        <Label fx:id="time_lb" layoutX="249.0" layoutY="6.0" prefHeight="17.0" prefWidth="75.0" text="TIME" textFill="#ebf2ed" />
+                     </children>
+                  </Pane>
+               </top>
+            </BorderPane>
+         </right>
+         <center>
+            <ScrollPane fx:id="shelf" cache="true" cacheShape="false" fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" minWidth="-Infinity" pannable="true" prefHeight="853.0" prefWidth="1017.0" BorderPane.alignment="CENTER">
+               <content>
+                  <VBox fx:id="bg" cacheShape="false" fillWidth="false" prefHeight="420.0" prefWidth="1025.0" spacing="10.0" stylesheets="@../../css/styling.css" />
+               </content>
+            </ScrollPane>
+         </center>
+      </BorderPane>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane cache="true" cacheHint="SPEED" maxWidth="1600.0" prefWidth="1600.0" style="-fx-background-color: transparent;" stylesheets="@../../css/styling.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.notfromus.view.view0.View0Controller">
+    <children>
+        <BorderPane cacheHint="SPEED" prefHeight="900.0" prefWidth="1600.0" style="-fx-background-color: transparent;">
+            <left>
+                <VBox alignment="TOP_CENTER" cache="true" cacheHint="SPEED" focusTraversable="true" prefHeight="845.0" prefWidth="90.0" style="-fx-background-color: transparent;" stylesheets="@../../css/styling.css" BorderPane.alignment="CENTER">
+                    <children>
+                        <ImageView fx:id="ivcon" fitHeight="120.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                            <viewport>
+                                <Rectangle2D />
+                            </viewport>
+                            <image>
+                                <Image url="https://i.ibb.co/kgzYbmD/4cd974ef591d446092118356d12a110e.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+            </left>
+            <top>
+                <HBox alignment="CENTER_RIGHT" cache="true" cacheHint="SPEED" prefHeight="35.0" prefWidth="200.0" spacing="15.0" style="-fx-background-color: transparent;" stylesheets="@../../css/styling.css" BorderPane.alignment="CENTER_RIGHT">
+                    <children>
+                        <Button cacheShape="false" cancelButton="true" focusTraversable="false" mnemonicParsing="false" prefHeight="18.0" prefWidth="18.0" style="-fx-background-color: rgba(255,255,255,0.1);" stylesheets="@../../css/styling.css">
+                            <graphic>
+                                <ImageView fitHeight="18.0" fitWidth="18.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="https://img.icons8.com/ios/18/000000/home--v3.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <HBox.margin>
+                                <Insets right="5.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button cacheShape="false" focusTraversable="false" mnemonicParsing="false" prefHeight="18.0" prefWidth="18.0" style="-fx-background-color: rgba(255,255,255,0.1);" stylesheets="@../../css/styling.css">
+                            <graphic>
+                                <ImageView fitHeight="18.0" fitWidth="18.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="https://img.icons8.com/pastel-glyph/18/000000/hexagon-reload.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                        </Button>
+                    </children>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+                </HBox>
+            </top>
+         <center>
+                <BorderPane cache="true" cacheHint="SPEED" maxWidth="1494.0" prefHeight="839.0" prefWidth="1494.0" style="-fx-background-color: transparent;" BorderPane.alignment="CENTER_LEFT">
+               <center>
+                  <StackPane fx:id="greatGrandmother" alignment="TOP_LEFT" cache="true" cacheHint="SPEED" prefHeight="845.0" prefWidth="1475.0" style="-fx-background-color: transparent;" BorderPane.alignment="CENTER">
+                     <children>
+                        <ScrollPane fx:id="grandmotherInTheCentre" cache="true" cacheHint="SPEED" fitToWidth="true" prefHeight="709.0" prefWidth="1480.0" style="-fx-background: transparent; -fx-background-color: rgba(255,255,255);">
+                           <StackPane.margin>
+                              <Insets top="90.0" />
+                           </StackPane.margin>
+                           <content>
+                              <GridPane fx:id="mother" style="-fx-background-color: transparent;">
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                              </GridPane>
+                           </content></ScrollPane>
+                        <ProgressBar fx:id="process" cache="true" cacheHint="SPEED" opacity="0.0" prefHeight="11.0" prefWidth="1480.0" progress="0.6" />
+                        <ComboBox fx:id="category" cache="true" cacheHint="SPEED" maxHeight="25.0" minHeight="25.0" prefHeight="25.0" prefWidth="580.0" promptText="-Category select-" style="-fx-background-color: rgba(200,200,200,0.3); -fx-background-radius: 10;" visibleRowCount="4">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Item 1" />
+                                    <String fx:value="Item 2" />
+                                    <String fx:value="Item 3" />
+                                </FXCollections>
+                            </items>
+                           <StackPane.margin>
+                              <Insets top="30.0" />
+                           </StackPane.margin>
+                        </ComboBox>
+                        <ProgressIndicator fx:id="categoryProgress" progress="0.0">
+                           <StackPane.margin>
+                              <Insets left="600.0" top="350.0" />
+                           </StackPane.margin>
+                        </ProgressIndicator>
+                        <Button fx:id="reader_btn" accessibleRole="TOGGLE_BUTTON" disable="true" mnemonicParsing="false" opacity="0.0" prefHeight="40.0" prefWidth="250.0" style="-fx-background-radius: 10;" text="  Reader">
+                           <StackPane.margin>
+                              <Insets left="1110.0" top="10.0" />
+                           </StackPane.margin>
+                           <graphic>
+                              <ImageView fitHeight="40.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="https://img.icons8.com/ios/40/000000/google-news.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="SansSerif Regular" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="page_btn" mnemonicParsing="false" prefHeight="40.0" prefWidth="250.0" style="-fx-background-radius: 10;" text="Home">
+                           <StackPane.margin>
+                              <Insets left="820.0" top="10.0" />
+                           </StackPane.margin>
+                           <graphic>
+                              <ImageView fitHeight="40.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="https://img.icons8.com/ios/40/000000/rss.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="SansSerif Regular" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </StackPane>
+               </center></BorderPane>
+         </center>
+         <bottom>
+            <ScrollPane fx:id="father" fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" prefHeight="40.0" prefWidth="1600.0" BorderPane.alignment="CENTER">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </ScrollPane>
+         </bottom>
+        </BorderPane>
+    </children>
+    <cursor>
+        <Cursor fx:constant="DEFAULT" />
+    </cursor>
+</AnchorPane>

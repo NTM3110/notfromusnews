@@ -1,0 +1,107 @@
+.combo-box{
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-color: rgba(120,120,120,0.3);
+    -fx-pref-height: 35px;
+}
+
+.combo-box .list-cell
+{
+    -fx-background: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-font-size: 26px;
+
+}
+
+.combo-box-popup .list-view
+{
+    -fx-font-size: 26px;
+    -fx-background-color: white, white;
+    -fx-pref-height: 380px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+
+}
+
+.combo-box-popup .list-view .list-cell
+{
+    -fx-padding: 4 0 4 5;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    /* No alternate highlighting */
+    -fx-background-color: white;
+}
+
+
+
+.combo-box-popup .list-view .list-cell:filled:hover
+{
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-color: red;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+.combo-box-base
+{
+    -fx-background-color: rgba(120,120,120,0.3);
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 0;
+}
+
+.combo-box-base:hover
+{
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-color: -fx-hover-base;
+}
+
+.combo-box .scroll-bar{
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.combo-box-base:showing
+{
+    -fx-color: -fx-pressed-base;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+.button{
+    -fx-background-color: rgba(120,120,120,0.3);
+}
+.button:pressed{
+    -fx-background-color: rgba(120,120,120,1);
+}
+.button:hover{
+    -fx-background-color: rgba(120,120,120,1);
+}
+.button:focused{
+    -fx-background-color: rgba(120,120,120,1);
+}
+
+.toggle-button{
+    -fx-background-color: rgba(120,120,120,0.3);
+}
+.toggle-button:selected{
+    -fx-background-color: rgba(120,120,120,1);
+}
+.toggle-button:hover{
+    -fx-background-color: rgba(120,120,120,1);
+}
+.toggle-button:focused{
+    -fx-background-color: rgba(120,120,120,1);
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
